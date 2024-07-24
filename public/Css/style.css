@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(238, 238, 163);
+    text-transform: capitalize;
+    background-image: url(../img/Margo\ \(2\).jpg);
+    background-attachment: fixed;
+    font-family: system-ui;
+}
+
+h2{
+    /* background-color: rgb(149, 148, 146); */
+    color: rgb(10, 10, 10);
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    transition: 1s;
+    font-weight: bold;
+}
+
+button:hover{
+    width: 100px;
+    height: 40px;
+}
+
+img{
+    width: 310px;
+    height: 450px;
+}
+/*//////////////////////////////////////////////////////////////////////////*/
+
+.head{
+    width: 100%;
+    height: 50px;
+    /* position: fixed; */
+    z-index: 15;
+    opacity: 0.9;
+    background-color:  #EAEAEA;
+    position: relative;
+    background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.title-head{
+    display: inline;
+    /* float: left; */
+    margin-left: 5px ;
+    /* margin-top: 5px; */
+    position: absolute;
+    top: -10px;
+}
+
+.elclogo{
+    width: 60px;
+    height: 40px;
+    margin: 5px;
+    float: left;
+}
+
+
+.list1 {
+    list-style-type: none;
+    float: right;
+    margin-right: 50px;
+}
+
+.list1 li{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: x-large;
+    margin-top: 8px;
+    
+    
+}
+
+.list1  li a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.list1 li a:hover {
+   
+    color: #ef8e38;
+
+
+}
+
+
+
+
+/*///////////////////////////////////////////////////////////////////*/
+.sec-title{
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+.sec-p{
+    font-size: x-large;
+}
+
+/*////////////////////////////////////////////////////////////////*/
+
+.head-post{
+    background-color: #FFEFBA;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xxx-large;
+    margin-bottom: 10px;
+}
+
+
+
+/*////////////////////////////////////////////////////////////////*/
+.contant-con{
+    height: 100vh;
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.con-home{
+    background-color: bisque;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.contant {
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*////////////////////////////////////////////////////////////////*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    /* width: 25%; */
+    width: 345px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .text-container {
+    padding: 2px 16px;
+  }
+/*////////////////////////////////////////////////////////////////////////////*/
+.c2 .sec-title{
+    font-size: xx-large;
+}
+
+  /*/////////////////////////////////////////////////////////////////////////*/
+  .footer{
+    position: relative;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #FFEFBA;
+    margin-top: 100px;
+}
+
+.accounts{
+    position: absolute;
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* margin-top: 80px; */
+}
+
+/* .end{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 530px;
+    background-color: #e483172e;
+    border-radius: 50px;
+} */
+
+.accounts-ul{
+    padding-left: 25px;
+}
+
+.accounts-ul li{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.accounts a{
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 15px;
+    font-size: xx-large;
+    color: aliceblue;
+    z-index: 1;
+}
+
+.accounts p{
+    /* color: aliceblue; */
+    text-transform: uppercase;
+    padding-top: 40px;
+    /* padding-left: 15px; */
+}
+
+.face{
+    background-color: #1877F2;
+    border: solid aliceblue;
+    outline: solid #1877F2;
+}
+
+.fbok{
+    padding-left: 3px;
+    color: aliceblue;
+}
+
+.twit{
+    background-color: #1DA1F2;
+    border: solid aliceblue;
+    outline: solid #1DA1F2;
+}
+
+.twtr{
+    color: aliceblue;
+}
+
+.linkd{
+    background-color: #0077b5;
+    border: solid aliceblue;
+    outline: solid #0077b5;
+}
+
+.lkdn{
+    color: aliceblue;
+}
+
+.ytb{
+    background-color: #FF0000;
+    border: solid aliceblue;
+    outline: solid #FF0000;
+}
+
+.ytub{
+    margin-left: -5px;
+    margin-top: -2px; 
+    color: aliceblue;
+}
+
+.isgrm{
+background-color: #c471edba;
+border: solid aliceblue;
+outline: solid #c471ed;
+}
+
+.itgm{
+    color:aliceblue ;
+    margin-left: -2px;
+    margin-top: -2px;
+}
+
+.gog{
+    background-color:#DB4437 ;
+    border: solid aliceblue;
+    outline: solid #DB4437;
+}
+
+.gle{
+    color: aliceblue;
+    margin-left: -3px;
+    margin-top: -2px;
+}
+
+.accounts-ul li::after {
+    position: absolute;
+    content: "";
+
+    background-color: aliceblue;
+
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+    transition: 0.1s;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.accounts-ul li:hover::after{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
